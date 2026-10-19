@@ -2,18 +2,18 @@
 
 **Your personal project memory workspace.**
 
-ContextOS is a local-first workspace for organizing projects, notes, decisions, and tasks in one place.
+ContextOS is a local-first workspace designed to help you organize projects, notes, decisions, and tasks in one place. It helps you keep track of your work and quickly return to where you left off.
 
 ## Features
 
-- Project dashboard and workspaces
-- Project creation, editing, and deletion
-- Notes and project memories
-- Task management and completion tracking
-- Global search
-- Local browser storage
-- JSON data export
-- Project resume briefing
+- **Project Dashboard** — View and organize your projects.
+- **Project Workspaces** — Create, edit, and manage individual projects.
+- **Notes & Decisions** — Keep important information and project memories together.
+- **Task Management** — Create, edit, complete, and delete tasks.
+- **Global Search** — Find relevant information across your workspace.
+- **Resume Briefing** — Review project information to get back into your workflow.
+- **Local-First Storage** — Keep application data in your browser's local storage.
+- **JSON Backup Export** — Export your data for safekeeping.
 
 ## Tech Stack
 
@@ -21,21 +21,20 @@ ContextOS is a local-first workspace for organizing projects, notes, decisions, 
 - Vite
 - JavaScript
 - CSS
-- Browser localStorage
+- Browser `localStorage`
 
 ## Getting Started
 
-### Requirements
+### Prerequisites
 
-- Node.js with npm
-- Git
+Install [Node.js](https://nodejs.org/) and Git before continuing.
 
 ### Installation
 
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Mysterio0076/ContextOS-App.git
 cd ContextOS-App
 ```
 
@@ -57,28 +56,46 @@ Create a production build:
 npm run build
 ```
 
-Preview the production build:
+Preview the production build locally:
 
 ```bash
 npm run preview
 ```
 
-## Data and Privacy
+## Data & Privacy
 
-ContextOS currently stores application data in the browser's localStorage. Data is browser-specific and may be lost if browser site data is cleared. Export backups regularly and store them somewhere safe.
+ContextOS currently stores application data in your browser's `localStorage`.
 
-Do not use this early version as the only storage location for critical information.
+- Data is specific to the browser and origin where it was created.
+- Clearing browser site data can permanently remove locally stored information.
+- Data does not automatically synchronize across devices.
+- Export backups regularly and store them somewhere safe.
+
+**Important:** This early version should not be your only storage location for critical information.
 
 ## Project Status
 
-ContextOS is under active development. Core workflows have been manually tested by the developer, but broader testing is still needed before relying on it for important data.
+ContextOS is under active development. Core workflows have been manually tested by the developer, but broader testing is still needed.
 
-AI features, cloud synchronization, hosted accounts, and paid subscriptions are not included in this release.
+AI integration, cloud synchronization, hosted accounts, collaboration, and paid subscriptions are not included in this version.
+
+## Roadmap
+
+- [ ] Safe JSON import and data restoration
+- [ ] Improved backup and recovery workflow
+- [ ] Responsive UI improvements
+- [ ] Automated testing
+- [ ] First public release: `v0.1.0`
+- [ ] Evaluate future AI and cloud features
 
 ## Contributing
 
-Contributions, bug reports, and feature suggestions are welcome. Please describe bugs clearly and include steps to reproduce them.
+Bug reports, suggestions, and contributions are welcome. When reporting a bug, include the steps to reproduce it and what you expected to happen.
 
 ## License
 
-The project license will be specified in the `LICENSE` file before public distribution.
+ContextOS is distributed under the [MIT License](LICENSE).
+
+---
+
+Built independently as an evolving project. Contributions and feedback are welcome.
