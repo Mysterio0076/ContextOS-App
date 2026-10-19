@@ -1,16 +1,84 @@
-# React + Vite
+﻿# ContextOS
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Your personal project memory workspace.**
 
-Currently, two official plugins are available:
+ContextOS is a local-first workspace for organizing projects, notes, decisions, and tasks in one place.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Project dashboard and workspaces
+- Project creation, editing, and deletion
+- Notes and project memories
+- Task management and completion tracking
+- Global search
+- Local browser storage
+- JSON data export
+- Project resume briefing
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the Oxlint configuration
+- React
+- Vite
+- JavaScript
+- CSS
+- Browser localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Getting Started
+
+### Requirements
+
+- Node.js with npm
+- Git
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd ContextOS-App
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Data and Privacy
+
+ContextOS currently stores application data in the browser's localStorage. Data is browser-specific and may be lost if browser site data is cleared. Export backups regularly and store them somewhere safe.
+
+Do not use this early version as the only storage location for critical information.
+
+## Project Status
+
+ContextOS is under active development. Core workflows have been manually tested by the developer, but broader testing is still needed before relying on it for important data.
+
+AI features, cloud synchronization, hosted accounts, and paid subscriptions are not included in this release.
+
+## Contributing
+
+Contributions, bug reports, and feature suggestions are welcome. Please describe bugs clearly and include steps to reproduce them.
+
+## License
+
+The project license will be specified in the `LICENSE` file before public distribution.
